@@ -12,7 +12,7 @@ import { ProductsModule } from './products/products.module';
     UserModule,
     FlowersModule,
     MongooseModule.forRoot(
-      'mongodb+srv://abats333:5A35CAJavPEasKiL@cluster0.3aqnf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
+      'mongodb+srv://abats333:@cluster0.3aqnf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0',
     ),
     ProductsModule,
   ],
